@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Llian_FreeAdminShipping>
+			<version>0.1.0</version>
+		</Llian_FreeAdminShipping>
+	</modules>
+	<global>
+		<helpers>
+			<freeadminshipping>
+				<class>Llian_FreeAdminShipping_Helper</class>
+			</freeadminshipping>
+		</helpers>
+    	<models>
+      		<freeadminshipping>
+        		<class>Llian_FreeAdminShipping_Model</class>
+      		</freeadminshipping>
+    	</models>
+    	<resources>
+      		<freeadminshipping_setup>
+        		<setup>
+          			<module>Llian_FreeAdminShipping</module>
+        		</setup>
+        		<connection>
+          			<use>core_setup</use>
+        		</connection>
+      		</freeadminshipping_setup>
+    	</resources>
+	</global>
+  	<default>
+  		<carriers>
+        	<freeadminshipping>
+            	<active>1</active>
+                <sallowspecific>0</sallowspecific>
+                <model>freeadminshipping/carrier_freeadminshipping</model>
+                <name>Free</name>
+                <title>Free Admin Shipping</title>
+                <specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg>
+            </freeadminshipping>
+  		</carriers>
+  </default>
+
+</config>
