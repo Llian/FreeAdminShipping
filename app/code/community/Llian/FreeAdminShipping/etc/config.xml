@@ -26,7 +26,18 @@
         		</connection>
       		</freeadminshipping_setup>
     	</resources>
-	</global>
+    </global>
+    <adminhtml>
+		<translate>
+			<modules>
+				<Llian_FreeAdminShipping>
+					<files>
+						<freeadminshipping>Llian_FreeAdminShipping.csv</freeadminshipping>
+					</files>
+				</Llian_FreeAdminShipping>
+			</modules>
+		</translate>
+	</adminhtml>
   	<default>
   		<carriers>
         	<freeadminshipping>
@@ -39,5 +50,4 @@
             </freeadminshipping>
   		</carriers>
   </default>
-
 </config>

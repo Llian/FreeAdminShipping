@@ -1,4 +1,4 @@
 Release Notes
 
-Llian Free Admin Shipping 0.1.0 beta (2013-03-19)
+Llian Free Admin Shipping 0.1.0 beta (2013-03-28)
 * initial public release
