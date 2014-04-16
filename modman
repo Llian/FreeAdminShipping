@@ -1,0 +1,5 @@
+app/code/community/Llian/FreeAdminShipping		app/code/community/Llian/FreeAdminShipping
+app/etc/modules/Llian_FreeAdminShipping.xml		app/etc/modules/Llian_FreeAdminShipping.xml
+app/locale/de_DE/Llian_FreeAdminShipping.csv	app/locale/de_DE/Llian_FreeAdminShipping.csv
+var/connect/Llian_FreeAdminShipping.xml			var/connect/Llian_FreeAdminShipping.xml
+

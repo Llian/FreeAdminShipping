@@ -1,0 +1,104 @@
+<_>
+   <form_key>vRti2VIbHA3StXC8</form_key>
+   <name>Llian_FreeAdminShipping</name>
+   <channel>community</channel>
+   <version_ids>
+      <version_ids>2</version_ids>
+   </version_ids>
+   <summary>Adds a free shipping method for admin (backend) users only.</summary>
+   <description>Adds a free shipping method for admin (backend) users only. This is useful if you don&apos;t want to charge shipping costs from people who come to your store for pickup but don&apos;t want front end users give this option.
+
+Features:
+* Allows admin users to offer free shipping while frontend users don&apos;t have this option
+* Custom labels for this shipping option</description>
+   <license>GNU General Public License (GPL)</license>
+   <license_uri>http://www.gnu.org/licenses/gpl.html</license_uri>
+   <version>0.1.1</version>
+   <stability>stable</stability>
+   <notes>Release Notes
+
+Llian Free Admin Shipping 0.1.1 (2014-04-17)
+* tested with Magento 1.6.2, 1.7.0, 1.8.0, 1.8.1 and now considered stable
+
+Llian Free Admin Shipping 0.1.0 beta (2013-03-28)
+* initial public release</notes>
+   <authors>
+      <name>
+         <name>Llian</name>
+      </name>
+      <user>
+         <user>Llian</user>
+      </user>
+      <email>
+         <email>info@llian.de</email>
+      </email>
+   </authors>
+   <depends_php_min>5.2.13</depends_php_min>
+   <depends_php_max>6.0.0</depends_php_max>
+   <depends>
+      <package>
+         <name>
+            <name/>
+         </name>
+         <channel>
+            <channel/>
+         </channel>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+         <files>
+            <files>      </files>
+         </files>
+      </package>
+      <extension>
+         <name>
+            <name>Core</name>
+         </name>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+      </extension>
+   </depends>
+   <contents>
+      <target>
+         <target>magelocal</target>
+         <target>magecommunity</target>
+         <target>mageetc</target>
+         <target>magelocale</target>
+      </target>
+      <path>
+         <path/>
+         <path>Llian/FreeAdminShipping</path>
+         <path>modules/Llian_FreeAdminShipping.xml</path>
+         <path/>
+      </path>
+      <type>
+         <type>file</type>
+         <type>dir</type>
+         <type>file</type>
+         <type>dir</type>
+      </type>
+      <include>
+         <include/>
+         <include/>
+         <include/>
+         <include>#Llian_FreeAdminShipping.csv#</include>
+      </include>
+      <ignore>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+      </ignore>
+   </contents>
+   <page>1</page>
+   <limit>200</limit>
+   <folder/>
+   <package/>
+</_>
