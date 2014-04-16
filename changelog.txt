@@ -1,4 +1,7 @@
 Release Notes
 
+Llian Free Admin Shipping 0.1.1 (2014-04-17)
+* tested with Magento 1.6.2, 1.7.0, 1.8.0, 1.8.1 and now considered stable
+
 Llian Free Admin Shipping 0.1.0 beta (2013-03-28)
 * initial public release
