@@ -4,6 +4,7 @@ Llian Free Admin Shipping 0.1.2 (2017-01-26)
 * added composer file
 * added NL translation
 * minor refactoring
+* tested for EE1.14.3.* / CE1.9.3.*
 
 Llian Free Admin Shipping 0.1.1 (2014-04-17)
 * tested with Magento 1.6.2, 1.7.0, 1.8.0, 1.8.1 and now considered stable
