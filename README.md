@@ -1,6 +1,6 @@
 # Llian FreeAdminShipping - Extension for Magento (CE)
 Adds a free shipping method for admin (backend) users only. This is useful if you don't want to charge shipping costs from people who come to your store for pickup but don't want front end users give this option.
-If you just want to use this extension, get it [here](http://www.magentocommerce.com/magento-connect/catalog/product/view/id/15731/).
+If you just want to use this extension, get it [here](https://www.magentocommerce.com/magento-connect/free-admin-shipping.html).
 
 Features:
 * Allows admin users to offer free shipping while frontend users don't have this option
