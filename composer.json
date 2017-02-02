@@ -2,6 +2,6 @@
   "name": "llian/freeadminshipping",
   "description": "Free shipping method for admin (backend) users only",
   "type": "magento-module",
-  "homepage": "http://www.magentocommerce.com/magento-connect/catalog/product/view/id/15731/",
-  "license": "MIT"
+  "homepage": "https://www.magentocommerce.com/magento-connect/free-admin-shipping.html",
+  "license": "GPL"
 }
