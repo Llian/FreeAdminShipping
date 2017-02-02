@@ -13,9 +13,13 @@ Features:
 * Custom labels for this shipping option</description>
    <license>GNU General Public License (GPL)</license>
    <license_uri>http://www.gnu.org/licenses/gpl.html</license_uri>
-   <version>0.1.1</version>
+   <version>0.1.2</version>
    <stability>stable</stability>
    <notes>Release Notes
+Llian Free Admin Shipping 0.1.2 (2017-01-26)
+* added composer file
+* added NL translation
+* minor refactoring
 
 Llian Free Admin Shipping 0.1.1 (2014-04-17)
 * tested with Magento 1.6.2, 1.7.0, 1.8.0, 1.8.1 and now considered stable

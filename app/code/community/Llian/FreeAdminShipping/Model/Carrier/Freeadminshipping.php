@@ -45,10 +45,10 @@ implements Mage_Shipping_Model_Carrier_Interface
 	protected function isAdmin()
 	{
 		/* set admin session */
-		Mage::getSingleton('core/session', array('name' => 'adminhtml'))->start();
-		$isLoggedIn = Mage::getSingleton('admin/session', array('name' => 'adminhtml'))->isLoggedIn();
+		Mage::getSingleton('core/session', ['name' => 'adminhtml'])->start();
+		$isLoggedIn = Mage::getSingleton('admin/session', ['name' => 'adminhtml'])->isLoggedIn();
 		/* set original session */
-		Mage::getSingleton('core/session', array('name' => $this->_sessionNamespace))->start();
+		Mage::getSingleton('core/session', ['name' => $this->_sessionNamespace])->start();
 		return $isLoggedIn;
 	}
 	
@@ -79,11 +79,8 @@ implements Mage_Shipping_Model_Carrier_Interface
 		
 	public function getAllowedMethods()
 	{
-		return array('freeadminshipping'=>$this->getConfigData('name'));
+		return ['freeadminshipping'=>$this->getConfigData('name')];
 	}
 	
 	
 }
-
-
-?>
