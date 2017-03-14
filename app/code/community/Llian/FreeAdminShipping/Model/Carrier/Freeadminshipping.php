@@ -51,6 +51,16 @@ implements Mage_Shipping_Model_Carrier_Interface
 		Mage::getSingleton('core/session', ['name' => $this->_sessionNamespace])->start();
 		return $isLoggedIn;
 	}
+
+	/**
+	 * Returns the allowed flag which lets scripts overwrite the admin check
+	 *
+	 * @return bool
+	 */
+	protected function forceIsAllowFlag()
+	{
+		return (bool)Mage::registry('force_allow_freeadmin');
+	}
 	
 	/**
 	 * Returns freeadminshipping shipping rate, if this method is activated and the user is logged in as admin
@@ -60,7 +70,7 @@ implements Mage_Shipping_Model_Carrier_Interface
 	 */
 	public function collectRates(Mage_Shipping_Model_Rate_Request $request)
 	{
-		if (!$this->getConfigFlag('active') || !$this->isAdmin()) {
+		if (!$this->getConfigFlag('active') || (!$this->isAdmin() && !$this->forceIsAllowFlag())) {
 			return false;
 		}
 	
